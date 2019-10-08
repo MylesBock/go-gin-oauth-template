@@ -11,6 +11,7 @@ require (
 	github.com/gorilla/mux v1.7.3
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	home v0.0.0-00010101000000-000000000000
+	login v0.0.0-00010101000000-000000000000
 )
 
 replace app => ./app
@@ -22,3 +23,5 @@ replace home => ./routes/home
 replace callback => ./routes/callback
 
 replace templates => ./routes/templates
+
+replace login => ./routes/login

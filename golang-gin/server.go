@@ -4,6 +4,7 @@ import (
 	"callback"
 	"home"
 	"log"
+	"login"
 	"net/http"
 
 	"github.com/gorilla/mux"
@@ -14,11 +15,12 @@ func StartServer() {
 
 	r.HandleFunc("/", home.HomeHandler)
 	r.HandleFunc("/callback", callback.CallbackHandler)
-
+	r.HandleFunc("/login", login.LoginHandler)
 	http.Handle("/", r)
 
 	log.Print("Server listening on http://localhost:3000/")
 	log.Fatal(http.ListenAndServe("0.0.0.0:3000", nil))
+
 }
 
 /*
