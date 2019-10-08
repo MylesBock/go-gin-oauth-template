@@ -12,6 +12,9 @@ require (
 	golang.org/x/oauth2 v0.0.0-20190604053449-0f29369cfe45
 	home v0.0.0-00010101000000-000000000000
 	login v0.0.0-00010101000000-000000000000
+	middlewares v0.0.0-00010101000000-000000000000
+	templates v0.0.0
+	user v0.0.0-00010101000000-000000000000
 )
 
 replace app => ./app
@@ -25,3 +28,7 @@ replace callback => ./routes/callback
 replace templates => ./routes/templates
 
 replace login => ./routes/login
+
+replace user => ./routes/user
+
+replace middlewares => ./routes/middlewares
