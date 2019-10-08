@@ -34,4 +34,6 @@ replace logout => ./routes/logout
 
 replace user => ./routes/user
 
+replace userhomepage => ./routes/userhomepage
+
 replace middlewares => ./routes/middlewares
