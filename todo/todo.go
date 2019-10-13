@@ -91,3 +91,4 @@ func setTodoCompleteByLocation(location int) {
 func isMatchingID(a string, b string) bool {
 	return a == b
 }
+

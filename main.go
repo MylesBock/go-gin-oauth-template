@@ -10,7 +10,7 @@ import (
 	"github.com/JessikaMurphy/golang-angular/handlers"
 	"github.com/auth0-community/go-auth0"
 	"github.com/gin-gonic/gin"
-	"gopkg.in/square/go-jose.v2"
+	jose "gopkg.in/square/go-jose.v2"
 )
 
 var (

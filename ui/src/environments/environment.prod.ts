@@ -3,6 +3,6 @@ export const environment = {
   gateway: '',
   callback: 'http://localhost:4200/callback',
   domain: 'dev--gjcrbou.auth0.com',
-  clientId: 'gpOFaOOUxm36Di7bVsCuSod89Yl4XzZV',
+  clientId: 'BnfkqcQ1mDUn1Tn7oB5Yl9l55N5guJep',
   audience: 'https://kanji-connection-api/'
 };

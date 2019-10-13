@@ -12,7 +12,6 @@ import { CallbackComponent } from './callback/callback.component'
 import { TodoComponent } from './todo/todo.component'
 import { TodoService } from './todo.service'
 
-
 import { FormsModule } from '@angular/forms'
 import { TokenInterceptor } from './token.interceptor'
 
